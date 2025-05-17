@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <title>Isis Jardim</title>
 </head>
-
 <body>
     <header id="menu">
         <h1 class="logo">Isis Jardim</h1>
         <nav class="navegacao">
             <ul>
-                <li>Sobre Mim</li>
-                <li>Formação</li>
-                <li>Experiências</li>
-                <li>Contatos</li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="#contato">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -63,7 +60,6 @@
                 <a href="https://uva.br/">Universidade Veiga de Almeida</a>
                 <p>Curso Universitário</p>
             </div>
-
         </section>
 
         <section id="contato">
@@ -79,22 +75,31 @@
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" placeholder="Digite seu email" required>
                     </div>
-                </div>
+
                     <div class="contato-input">
                         <label for="mensagem">Mensagem:</label>
                         <textarea id="mensagem" name="mensagem" rows="4" cols="50"
-                        placeholder="Digite sua mensagem"></textarea>
+                            placeholder="Digite sua mensagem"></textarea>
                     </div>
-
-                <button type="submit">Enviar</button>
+                </div>
+                <button class="btn-enviar" type="submit">Enviar</button>
             </form>
         </section>
     </main>
     <br>
 
-    <footer>
-        <h2>Meus Contatos</h2>
-        <a href="https://www.linkedin.com/in/isisjardim/" target="_blank">Link para o meu Linkedin</a>
+    <footer class="rodape">
+        <div class="rodape-contatos">
+            <p><img src="img/github.png" alt="logo do github">isisjardim
+                <a href="https://github.com/isisjardim"></a>
+            </p>
+            <p><img src="img/business.png" alt="logo do linkedin">
+                <a href="https://www.linkedin.com/in/isisjardim/">Isis Jardim</a>
+            </p>
+        </div>
+        <div class="rodape-logo">
+            <a href="https:/minasprogramam.com"> <img class="logo-minas" src="img/logominas.png" alt="Logo Minas"></a>
+        </div>
     </footer>
-
+</body>
 </html>
