@@ -1,105 +1,98 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <title>Isis Jardim</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isis Jardim</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-    <header id="menu">
-        <h1 class="logo">Isis Jardim</h1>
-        <nav class="navegacao">
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#experiencias">Experiências</a></li>
-                <li><a href="#contato">Contatos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="sobre">
-            <img class="sobre-imagem" src="img/isis-perfil.jpg" alt="Imagem de Isis Jardim sorrindo">
-            <h2 class="sobre-nome">Isis Jardim</h2>
-            <h3 class="sobre-título">Desenvolvedora Web</h3>
-            <p class="sobre-descrição">
-                Olá, meu nome é Isis Jardim e sou estudante de Análise e Desenvolvimento de Sistemas.<br>Amo
-                <em>viajar</em>
-                e estou em transição de carreira da área da saúde para <strong>desenvolvimento web front-end.</strong>
-            </p>
-            <br>
-        </section>
-        <section id="formacao">
-            <h2 class="formacao-título">Formação</h2>
-            <div class="formacao-lista">
-                <h3>Desenvolvimento Front-End</h3>
-                <a href="https://minasprogramam.com" target="_blank">Instituto Minas Programam</a>
-                <p>Curso Introdutório de Desenvolvimento Front-End, ensinando conceitos básicos de HTML,CSS e Javascript
-                </p>
+  <header id="menu">
+    <h1 class="logo">Isis Jardim</h1>
+    <nav class="navegacao">
+      <ul>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-                <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
-                <a href="https://uva.br/">Universidade Veiga de Almeida</a>
-                <p>Curso Universitário</p>
-            </div>
+  <main>
+    <section id="sobre">
+      <img class="sobre-imagem" src="img/isis-perfil.jpg" alt="Imagem de Isis Jardim sorrindo" />
+      <h2 class="sobre-nome">Isis Jardim</h2>
+      <h3 class="sobre-titulo">Desenvolvedora Web</h3>
+      <p class="sobre-descricao">
+        Olá, meu nome é <strong>Isis Jardim</strong> e sou estudante de Análise e Desenvolvimento de Sistemas.<br />
+        Amo <em>viajar</em> e estou em transição de carreira da área da saúde para <strong>desenvolvimento web front-end</strong>.
+      </p>
+    </section>
 
-        </section>
+    <section id="formacao">
+      <h2 class="formacao-titulo">Formação</h2>
+      <div class="formacao-lista">
+        <h3>Desenvolvimento Front-End</h3>
+        <a href="https://minasprogramam.com" target="_blank">Instituto Minas Programam</a>
+        <p>Curso introdutório de Desenvolvimento Front-End, com foco em HTML, CSS e JavaScript.</p>
 
-        <section id="experiencias">
-            <h2 class="experiencia-titulo">Experiência</h2>
-            <div class="experiencia-lista">
-                <h3>Dentista Sanitarista</h3>
-                <a href="https://minasprogramam.com" target="_blank">SUS</a>
-                <p>Cirurgiã-Dentista na Estratégia da Saúde da Família</p>
+        <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+        <a href="https://uva.br" target="_blank">Universidade Veiga de Almeida</a>
+        <p>Curso de graduação tecnológica em andamento.</p>
+      </div>
+    </section>
 
-                <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
-                <a href="https://uva.br/">Universidade Veiga de Almeida</a>
-                <p>Curso Universitário</p>
-            </div>
-        </section>
+    <section id="experiencias">
+      <h2 class="experiencia-titulo">Experiências</h2>
+      <div class="experiencia-lista">
+        <h3>Dentista Sanitarista</h3>
+        <a href="https://gov.br/saude" target="_blank">SUS</a>
+        <p>Atuação como cirurgiã-dentista na Estratégia da Saúde da Família por 12 anos.</p>
+      </div>
+    </section>
 
-        <section id="contato">
-            <h2 class="contato-titulo">Entre em Contato Comigo</h2>
-            <form class="contato-formulario">
-                <div class="contato-grupoinput">
-                    <div class="contato-input">
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
-                    </div>
+    <section id="contato">
+      <h2 class="contato-titulo">Entre em contato comigo</h2>
+      <form action="https://formspree.io/f/mrbqrnvj" method="POST" class="contato-formulario">
+        <div class="contato-grupoinput">
+          <div class="contato-input">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+          </div>
 
-                    <div class="contato-input">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
-                    </div>
-
-                    <div class="contato-input">
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" rows="4" cols="50"
-                            placeholder="Digite sua mensagem"></textarea>
-                    </div>
-                </div>
-                <button class="btn-enviar" type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-    <br>
-
-    <footer class="rodape">
-        <div class="rodape-contatos">
-            <p><img src="img/github.png" alt="logo do github">isisjardim
-                <a href="https://github.com/isisjardim"></a>
-            </p>
-            <p><img src="img/business.png" alt="logo do linkedin">
-                <a href="https://www.linkedin.com/in/isisjardim/">Isis Jardim</a>
-            </p>
+          <div class="contato-input">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required />
+          </div>
         </div>
-        <div class="rodape-logo">
-            <a href="https:/minasprogramam.com"> <img class="logo-minas" src="img/logominas.png" alt="Logo Minas"></a>
+
+        <div class="contato-input">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
         </div>
-    </footer>
+
+        <button class="btn-enviar" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape-contatos">
+      <p><img src="img/github.png" alt="logo do GitHub" /> <a href="https://github.com/isisjardim" target="_blank">isisjardim</a></p>
+      <p><img src="img/business.png" alt="logo do LinkedIn" /> <a href="https://www.linkedin.com/in/isisjardim/" target="_blank">Isis Jardim</a></p>
+    </div>
+
+    <div class="rodape-logo">
+      <a href="https://minasprogramam.com" target="_blank">
+        <img class="logo-minas" src="img/logominas.png" alt="Logo do Minas Programam" />
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
