@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 #menu {
@@ -71,6 +71,7 @@ body {
 
 #formacao {
     padding: 50px 150px;
+    background-color: #F7EDE2;
 }
 
 .formacao-titulo {
@@ -92,7 +93,7 @@ body {
 }
 
 .formacao-lista a {
-    color: ##F28482;
+    color: #828282;
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -127,7 +128,7 @@ body {
 }
 
 .experiencia-lista a {
-    color: #F28482;
+    color: #828282;
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -140,6 +141,7 @@ body {
 
 #contato {
     padding: 50px 150px;
+    background-color: #F7EDE2;
 }
 
 .contato-titulo {
@@ -153,6 +155,7 @@ body {
     flex-direction: column;
     width: 700px;
     margin: 0 auto;
+    
 }
 
 .contato-grupoinput {
@@ -176,7 +179,7 @@ body {
 .contato-input textarea {
     padding: 10px;
     font-size: 18px;
-    border: 1px solid #ccc;
+    border: 1px solid #84A59D;
     border-radius: 5px;
 }
 
@@ -189,7 +192,7 @@ body {
     background-color: #F28482;
     padding: 15px;
     color: #84A59D;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
     border: none;
     border-radius: 10px;
